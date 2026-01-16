@@ -59,14 +59,14 @@ Include token in headers:
 
 #Setup Instructions
 
-git clone https://github.com/your-username/employee-management-api.git
-cd employee_api
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
+- git clone https://github.com/your-username/employee-management-api.git
+- cd employee_api
+- python -m venv venv
+- venv\Scripts\activate
+- pip install -r requirements.txt
+- python manage.py migrate
+- python manage.py createsuperuser
+- python manage.py runserver
 
-http://127.0.0.1:8000/admin/
-python manage.py test
+- http://127.0.0.1:8000/admin/
+- python manage.py test
